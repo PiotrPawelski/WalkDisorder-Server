@@ -1,0 +1,22 @@
+{
+  "name": "walkdisorderserver",
+  "version": "0.0.1",
+  "description": "Server for WalkDisorderApp",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016\u0016https://github.com/PiotrPawelski/WalkDisorder-Server.git"
+  },
+  "author": "Piotr Pawelski",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.5",
+    "morgan": "^1.9.1"
+  }
+}
